@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #212121;
+}
+   .controls {
+     display: flex;
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     background: linear-gradient(to bottom, transparent, #000);
+     align-items: center;
+     transition: opacity .2s;
+
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+    -fx-cursor: hand;
+}
+
+.label:hover {
+    -fx-text-fill: #9E9E9E;
+}
+
+#exit {
+    -fx-padding: 1px 5px;
+    -fx-border-width: 1px;
+    -fx-border-color: #E57373;
+    -fx-border-radius: 5px;
+}
+.player {
+  width: 35rem;
+  height: 15.5rem;
+  position: relative;
+}
+player {
+  width: 100%;
+  height: 100%;
+  background:pink;
+}
+player.play .controls {
+  opacity: 0;
+}
+
+player:hover .controls {
+  opacity: 1;
+}
+
+.control-button.play {
+  height: 45px;
+  width: 45px;
+}
+
+.control-button.pause {
+  height: 45px;
+  width: 45px;
+}
+
+.control-button.exit
+ {
+  height: 45px;
+  width: 45px;
+}
+.control-button.stop
+ {
+  height: 45px;
+  width: 45px;
+}
+
+
+
+
